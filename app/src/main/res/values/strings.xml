@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Clinics</string>
+    <string name="search">Search</string>
+    <string name="appointments">Appointments</string>
+
+    <string name="search_doctors">search doctor</string>
+    <string name="search_clinics">search clinics</string>
+
+    <string name="clinic">Clinic</string>
+    <string name="doctor">Doctor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="google_maps_key">AIzaSyD6wgBx3PPVf9nJFzbCzPA67afpWk7ztZ4</string>-->
+
+
+</resources>
