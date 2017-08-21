@@ -1,17 +1,46 @@
 <resources>
-    <string name="app_name">Clinics</string>
+    <string name="server_url">http://192.168.0.107:8080</string>
+    <string name="app_name">ClinicsApp</string>
     <string name="search">Search</string>
     <string name="appointments">Appointments</string>
+    <string name="medical_card">Medical card</string>
+    <string name="map">Map</string>
+    <string name="settings">Settings</string>
 
     <string name="search_doctors">search doctor</string>
     <string name="search_clinics">search clinics</string>
 
+    <string name="new_appointment">New appointment</string>
+
+
     <string name="clinic">Clinic</string>
     <string name="doctor">Doctor</string>
+    <string name="log_in">Log in</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="make_an_appointment">Make an appointment</string>
+
+    <string name="host_url">Host URL</string>
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account">Account</string>
+    <string name="log_out">Log out</string>
+    <string name="nothing_found">Nothing found</string>
+    <string name="appointment_info">Appointment info</string>
     <!--<string name="google_maps_key">AIzaSyD6wgBx3PPVf9nJFzbCzPA67afpWk7ztZ4</string>-->
+
+    <string name="not_approved"> not approved</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="middle_name">Middle name</string>
+
+
 
 
 </resources>

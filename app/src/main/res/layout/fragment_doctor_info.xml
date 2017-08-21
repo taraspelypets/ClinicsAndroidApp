@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:minHeight="120dp"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:layout_above="@+id/button_new_appointment">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/imageView_photo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@color/image_mock"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/textView_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/info_title_background"
+                        android:textColor="@color/white"
+                        android:padding="@dimen/padding"
+                        android:text="TextView" />
+                    <LinearLayout
+                        style="@style/FragmentAppBar"
+                        android:background="@android:color/transparent">
+
+                        <ImageButton
+                            android:id="@+id/button_back"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="top|left"
+                            android:background="@android:color/transparent"
+                            android:foreground="?android:attr/actionBarItemBackground"
+                            android:src="@drawable/ic_arrow_back_white_24dp" />
+
+                    </LinearLayout>
+
+
+
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="TextView" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView_contacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button_new_appointment"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="bottom"
+            android:background="@color/colorAccent"
+            android:text="@string/make_an_appointment"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
